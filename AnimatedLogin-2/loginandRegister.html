@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="button-group">
+                <div class="btn"></div>
+                <button class="btn-toggle" id="login">Sign In</button>
+                <button class="btn-toggle" id='register'>Sign Up</button>
+            </div>
+            <form class="form-group" id="signin">
+                <input type="text" placeholder="User Name" class="input-item">
+                <input type="password" placeholder="Password" class="input-item">
+                <input type="checkbox" class="check-box"><span>Remember Me</span>
+                <button type="submit" class="btn-submit">Sign In</button>
+            </form>
+            <form class="form-group" id="signup">
+                <input type="text" placeholder="User Name" class="input-item">
+                <input type="email" placeholder="Email" class="input-item">
+                <input type="password" placeholder="Password" class="input-item">
+                <input type="checkbox" class="check-box"><span>Agree Terms</span>
+                <button type="submit" class="btn-submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
