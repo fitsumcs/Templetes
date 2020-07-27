@@ -1017,7 +1017,7 @@ ol {
 }
 
 .categories__item {
-    height: 314px;
+    height: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1030,7 +1030,7 @@ ol {
 }
 
 .categories__item.categories__large__item {
-    height: 638px;
+    height: 250px;
     padding-left: 70px;
 }
 
