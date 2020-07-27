@@ -19,9 +19,8 @@ counters.forEach((counter) => {
         }
 
 
-    }
+    };
 
-    // console.log(typeof count);
 
 
     updateCount();
