@@ -14,8 +14,14 @@ body {
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 #time {
     font-size: 6rem;
+}
+
+#focus {
+    text-transform: capitalize;
+    font-size: 2rem;
 }

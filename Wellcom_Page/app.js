@@ -1,6 +1,14 @@
 // doc 
 const time = document.querySelector('#time');
 const greeting = document.querySelector('#greeting');
+const name = document.querySelector('#name');
+const focus = document.querySelector('#focus');
+
+// Event 
+name.addEventListener('keypress', setName);
+name.addEventListener('blur', setName);
+focus.addEventListener('keypress', setFocus);
+focus.addEventListener('blur', setFocus);
 
 
 
@@ -47,7 +55,52 @@ function getGreeting() {
         document.body.style.backgroundImage = "url('./img/evening.jpg')";
         greeting.textContent = "Good Evening";
 
+
+    }
+}
+// Set Name
+function setFocus(e) {
+    if (e.type === 'keypress') {
+        if (e.keyCode === 13) {
+            localStorage.setItem('focus', e.target.innerText);
+            focus.blur();
+        }
+    } else {
+        localStorage.setItem('focus', e.target.innerText);
+    }
+
+}
+// Set Name
+function setName(e) {
+    if (e.type === 'keypress') {
+        if (e.keyCode === 13) {
+            localStorage.setItem('name', e.target.innerText);
+            name.blur();
+        }
+    } else {
+        localStorage.setItem('name', e.target.innerText);
+    }
+
+}
+
+function getFocus() {
+    if (localStorage.getItem('focus') === null || localStorage.getItem('focuss') === '') {
+        focus.textContent = "[Enter Your Focus]";
+    } else {
+
+        focus.textContent = localStorage.getItem('focus');
+    }
+}
+
+function getName() {
+    if (localStorage.getItem('name') === null || localStorage.getItem('name') === '') {
+        name.textContent = "[Enter Your Name]";
+    } else {
+
+        name.textContent = localStorage.getItem('name');
     }
 }
 getTime();
 getGreeting();
+getName();
+getFocus();
