@@ -46,26 +46,6 @@
         autoplay: true
     });
 
-    /*--------------------------
-        Product Details Slider
-    ----------------------------*/
-    $(".product__details__pic__slider").owlCarousel({
-        loop: false,
-        margin: 0,
-        items: 1,
-        dots: false,
-        nav: true,
-        navText: ["<i class='arrow_carrot-left'></i>", "<i class='arrow_carrot-right'></i>"],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: false,
-        mouseDrag: false,
-        startPosition: 'URLHash'
-    }).on('changed.owl.carousel', function(event) {
-        var indexNum = event.item.index + 1;
-        product_thumbs(indexNum);
-    });
-
 
 
     /*------------------
