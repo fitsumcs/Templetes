@@ -21,7 +21,11 @@
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
     });
-
+    //filter controlss
+    $('.filter__controls li').on('click', function() {
+        $('.filter__controls li').removeClass('active');
+        $(this).addClass('active');
+    });
 
 
     /*--------------------------
