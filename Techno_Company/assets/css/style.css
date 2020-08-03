@@ -40,3 +40,30 @@
 
 
 /* End of Slider */
+
+
+/* About  */
+
+#about {
+    padding: 4rem 0;
+}
+
+#about .btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
+
+#about .progress {
+    margin-bottom: 1.2rem;
+}
+
+#about .skill-title {
+    color: chocolate;
+    font-size: large;
+}
+
+
+/* End of About */
