@@ -177,3 +177,55 @@
         color: cadetblue;
     }
     /* End of Team */
+    /* Web Hosting  */
+    
+    #hosting h1 {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    #hosting h1::after {
+        content: '';
+        background: chocolate;
+        display: block;
+        height: 0.15rem;
+        width: 9rem;
+        margin: 0.3rem auto 2rem;
+    }
+    
+    #hosting .col-md-4 {
+        text-align: center;
+    }
+    
+    #hosting .price-header {
+        background-color: aqua;
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    #hosting .price-offer ul li {
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+    
+    #hosting .price-offer span {
+        font-weight: 700;
+    }
+    
+    #hosting .price-offer h2 {
+        padding: 1rem 0;
+    }
+    
+    #hosting .price-offer ul li:nth-child(5) {
+        text-decoration: line-through;
+    }
+    
+    #hosting .price-offer ul li:nth-child(6) {
+        text-decoration: line-through;
+    }
+    
+    #hosting .btn {
+        padding: 0 4rem;
+        font-size: 1.3rem;
+    }
+    /* End Web Hosting  */
