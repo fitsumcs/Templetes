@@ -1,0 +1,28 @@
+.navbar {
+    background: grey;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li {
+    text-align: left;
+}
+
+#nav-bar ul li a {
+    color: white;
+}
+
+#nav-bar ul li a:hover {
+    color: chocolate;
+}
+
+.navbar-toggler {
+    border: none;
+}
