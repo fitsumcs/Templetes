@@ -58,12 +58,37 @@
 
 #about .progress {
     margin-bottom: 1.2rem;
+    border-radius: 10rem;
+    height: 1.5rem;
+}
+
+#about .progress-bar {
+    background-color: chocolate;
+    border-radius: 10rem;
+    font-size: 0.7rem;
+    color: aquamarine;
 }
 
 #about .skill-title {
-    color: chocolate;
+    color: rgb(121, 156, 156);
     font-size: large;
+}
+
+#about .skill-heading {
+    font-size: 2rem;
+    color: cadetblue;
+    padding-top: 1.5rem;
 }
 
 
 /* End of About */
+
+
+/* Services */
+
+.services {
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+
+
+/* End of Services */
