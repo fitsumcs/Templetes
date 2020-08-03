@@ -1,0 +1,470 @@
+/* For all */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+img {
+    /*  may change to min width*/
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+
+/* The Header  */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 5rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+
+.nav-brand {
+    width: 2rem;
+}
+
+.menu-icons i {
+    font-size: 3.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.close i {
+    color: coral;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -26rem;
+    z-index: 1500;
+    width: 25rem;
+    height: 100vh;
+    background-color: azure;
+    transition: all 1s ease-in-out;
+}
+
+.nav-list.active {
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+.nav-item {
+    margin: 1.5rem 0;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+/* End of Header */
+
+
+/* Hero Section */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(200, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%);
+    background-size: cover;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 4.7rem;
+    background: url("../images/wave-small.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-heading {
+    width: 100%;
+    max-width: 50rem;
+    color: white;
+    transform: translateY(30%);
+}
+
+.main-heading h1 {
+    font-size: 4rem;
+}
+
+.main-heading h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px coral;
+}
+
+.main-heading p {
+    font-size: 2rem;
+    text-align: justify;
+    text-transform: initial;
+}
+
+.more .btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: coral;
+    color: white;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+
+/* End of Hero Section */
+
+
+/* Service Section */
+
+.services {
+    padding: 0;
+}
+
+.title-heading {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+    /* it could be 10*/
+}
+
+.title-heading h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.title-heading p {
+    font-size: 1.5rem;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.service-item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: linear-gradient(135deg, rgba(200, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%);
+    height: 30rem;
+    padding: 3rem;
+}
+
+
+/* .service-item ::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(200, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%);
+    z-index: -1;
+} */
+
+.service-item i {
+    font-size: 5rem;
+    color: rgb(119, 37, 7);
+}
+
+.service-item h1 {
+    font-size: 2rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+
+/* End of Service Section */
+
+
+/* Testimonials  Section*/
+
+.testimonials {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(200, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%);
+    background-size: cover;
+    position: relative;
+}
+
+.testimonials::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 4.7rem;
+    background: url("../images/wave-small-reversed.png") center no-repeat;
+    background-size: cover;
+}
+
+.testimonial {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.testimonial-text {
+    padding: 0.15rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.testimonial-text i {
+    position: absolute;
+    top: -8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: coral;
+    opacity: .5;
+    z-index: -1;
+}
+
+.user img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    border: 2px solid blueviolet;
+}
+
+
+/* End of Testimonials  Section*/
+
+
+/* Contact Section */
+
+.contact .main-heading p {
+    color: black;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.contact-item input,
+textarea {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: fit-content;
+}
+
+.contact-item input {
+    width: 25rem;
+    height: 3rem;
+}
+
+.contact-item button {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid coral;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-item li {
+    font-size: 1.5rem;
+}
+
+.contact-item li span {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+
+/* End of Contact Section */
+
+
+/* Footer Section */
+
+footer {
+    padding: 2rem 0;
+    background: linear-gradient(135deg, rgba(200, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%);
+    color: beige;
+    text-align: center;
+}
+
+
+/* End of Footer Section */
+
+
+/* Media Query */
+
+
+/* Very Small Screen */
+
+@media screen and (min-width:350px) {
+    .main-heading {
+        transform: translateY(40%);
+    }
+    .contact-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* Small Screen */
+
+@media screen and (min-width:470px) {
+    .hero ::before {
+        height: 9.4rem;
+        background: url("../images/wave-medium.png");
+        background-size: cover;
+    }
+    .testimonials::before {
+        height: 9.4rem;
+        background: url("../images/wave-medium-reversed.png");
+        background-size: cover;
+    }
+    .main-heading p {
+        width: 90vw;
+    }
+}
+
+
+/* Mid Screen */
+
+@media screen and (min-width:700px) {
+    header {
+        height: 18rem;
+    }
+    .nav-brand {
+        width: 4rem;
+    }
+    .nav-list {
+        width: initial;
+        height: initial;
+        position: initial;
+        top: initial;
+        right: initial;
+        background-color: transparent;
+        flex-direction: row;
+        justify-content: space-evenly;
+        transition: initial;
+    }
+    .menu-icons {
+        display: none;
+    }
+    .nav-item {
+        margin: 0 2rem;
+    }
+    .nav-link {
+        color: white;
+        font-size: 2.5rem;
+    }
+    .main-heading p {
+        width: 90vw;
+    }
+}
+
+
+/*  Large Screen */
+
+@media screen and (min-width:950px) {
+    .hero ::before {
+        height: 22.7rem;
+        background: url("../images/wave-large.png");
+        background-size: cover;
+    }
+    .testimonials::before {
+        height: 22.7rem;
+        background: url("../images/wave-large-reversed.png");
+        background-size: cover;
+    }
+    .main-heading p {
+        width: 70vw;
+    }
+    .contact-grid {
+        display: grid;
+    }
+    .testimonial-text {
+        margin-top: 20rem;
+    }
+}
+
+
+/* Extra Large */
+
+@media screen and (min-width:1200px) {}
