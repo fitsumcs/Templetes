@@ -1,132 +1,130 @@
-.navbar {
-    background: grey;
-}
-
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-.navbar-nav li a {
-    float: right;
-    text-align: left;
-}
-
-.navbar-nav li {
-    text-align: left;
-}
-
-#nav-bar ul li a {
-    color: white;
-}
-
-#nav-bar ul li a:hover {
-    color: chocolate;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-
-/* End of Nav */
-
-
-/* Slider */
-
-#slider img {
-    width: 300px;
-    height: 500px;
-}
-
-
-/* End of Slider */
-
-
-/* About  */
-
-#about {
-    padding: 4rem 0;
-}
-
-#about .btn {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: chocolate;
-    border: 1px solid chocolate;
-}
-
-#about .progress {
-    margin-bottom: 1.2rem;
-    border-radius: 10rem;
-    height: 1.5rem;
-}
-
-#about .progress-bar {
-    background-color: chocolate;
-    border-radius: 10rem;
-    font-size: 0.7rem;
-    color: aquamarine;
-}
-
-#about .skill-title {
-    color: rgb(121, 156, 156);
-    font-size: large;
-}
-
-#about .skill-heading {
-    font-size: 2rem;
-    color: cadetblue;
-    padding-top: 1.5rem;
-}
-
-#about h1 {
-    position: relative;
-}
-
-#about h1::after {
-    content: '';
-    background: chocolate;
-    display: block;
-    height: 0.1rem;
-    width: 6rem;
-    position: absolute;
-    top: 3rem;
-    left: 2rem;
-}
-
-
-/* End of About */
-
-
-/* Services */
-
-#services .icon i {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    border: 2px solid chocolate;
-    padding: 1rem;
-    border-radius: 100%;
-}
-
-
-/* End of Services */
-
-
-/* Services */
-
-#services h1 {
-    text-align: center;
-}
-
-#services h1::after {
-    content: '';
-    background: chocolate;
-    display: block;
-    height: 0.1rem;
-    width: 9rem;
-    margin: 0.3rem auto 2rem;
-}
-
-
-/* End of Services */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar {
+        background: grey;
+    }
+    
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    
+    .navbar-nav li a {
+        float: right;
+        text-align: left;
+    }
+    
+    .navbar-nav li {
+        text-align: left;
+    }
+    
+    #nav-bar ul li a {
+        color: white;
+    }
+    
+    #nav-bar ul li a:hover {
+        color: chocolate;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+    /* End of Nav */
+    /* Slider */
+    
+    #slider img {
+        width: 300px;
+        height: 500px;
+    }
+    /* End of Slider */
+    /* About  */
+    
+    #about {
+        padding: 4rem 0;
+    }
+    
+    #about .btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: chocolate;
+        border: 1px solid chocolate;
+    }
+    
+    #about .progress {
+        margin-bottom: 1.2rem;
+        border-radius: 10rem;
+        height: 1.5rem;
+    }
+    
+    #about .progress-bar {
+        background-color: chocolate;
+        border-radius: 10rem;
+        font-size: 0.7rem;
+        color: aquamarine;
+    }
+    
+    #about .skill-title {
+        color: rgb(121, 156, 156);
+        font-size: large;
+    }
+    
+    #about .skill-heading {
+        font-size: 2rem;
+        color: cadetblue;
+        padding-top: 1.5rem;
+    }
+    
+    #about h1 {
+        position: relative;
+    }
+    
+    #about h1::after {
+        content: '';
+        background: chocolate;
+        display: block;
+        height: 0.1rem;
+        width: 6rem;
+        position: absolute;
+        top: 3rem;
+        left: 2rem;
+    }
+    /* End of About */
+    /* Services */
+    
+    #services .icon i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        border: 2px solid chocolate;
+        padding: 1rem;
+        border-radius: 100%;
+        color: coral;
+    }
+    
+    #services h4 {
+        font-weight: 600;
+        color: rgb(121, 156, 156);
+    }
+    /* End of Services */
+    /* Services */
+    
+    #services h1 {
+        text-align: center;
+    }
+    
+    #services h1::after {
+        content: '';
+        background: chocolate;
+        display: block;
+        height: 0.1rem;
+        width: 9rem;
+        margin: 0.3rem auto 2rem;
+    }
+    
+    #services .col-md-3:hover {
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    /* End of Services */
