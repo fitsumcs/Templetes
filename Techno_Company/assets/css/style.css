@@ -91,13 +91,26 @@
     height: 0.1rem;
     width: 6rem;
     position: absolute;
-    top: 33;
-    left: -35;
-    transform: translateX(20%);
+    top: 3rem;
+    left: 2rem;
 }
 
 
 /* End of About */
+
+
+/* Services */
+
+#services .icon i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border: 2px solid chocolate;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+
+/* End of Services */
 
 
 /* Services */
