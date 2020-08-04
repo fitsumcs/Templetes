@@ -18,4 +18,4 @@ nav_link.forEach((item) => {
 
         menu.classList.remove('active');
     });
-})
+});
