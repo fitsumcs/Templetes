@@ -209,37 +209,6 @@
         padding: 1rem 0;
     }
     
-    #hosting .starter .price-header {
-        background-color: aqua;
-    }
-    
-    #hosting .standard .price-header {
-        background-color: lightgreen;
-    }
-    
-    #hosting .premium .price-header {
-        background-color: yellowgreen;
-    }
-    
-    #hosting .premium ul {
-        list-style: none;
-        padding: 0;
-        text-decoration: none;
-    }
-    
-    #hosting .premium li {
-        text-decoration: none;
-    }
-    
-    #hosting .premium ul li:nth-child(n+3)::before {
-        content: "\f00c";
-        font-family: FontAwesome;
-        display: inline-block;
-        margin-left: -1.3em;
-        width: 1.3em;
-        color: green;
-    }
-    
     #hosting .price-offer ul li {
         list-style: none;
         margin-bottom: 1rem;
@@ -252,6 +221,11 @@
     #hosting .price-offer h2 {
         padding: 1rem 0;
     }
+    /* .starter */
+    
+    #hosting .starter .price-header {
+        background-color: aqua;
+    }
     
     #hosting .starter ul li:nth-child(5) {
         text-decoration: line-through;
@@ -261,8 +235,71 @@
         text-decoration: line-through;
     }
     
+    #hosting .starter ul {
+        padding-left: 8rem;
+        text-decoration: none;
+        text-align: left;
+    }
+    
+    #hosting .starter ul li:nth-child(n+3)::before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em;
+        width: 1.3em;
+        color: green;
+    }
+    
+    #hosting .starter ul li:nth-child(n+5)::before {
+        content: "";
+    }
+    /* standard  */
+    
+    #hosting .standard .price-header {
+        background-color: lightgreen;
+    }
+    
     #hosting .standard ul li:nth-child(6) {
         text-decoration: line-through;
+    }
+    
+    #hosting .standard ul {
+        padding-left: 8rem;
+        text-decoration: none;
+        text-align: left;
+    }
+    
+    #hosting .standard ul li:nth-child(n+3)::before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em;
+        width: 1.3em;
+        color: green;
+    }
+    
+    #hosting .standard ul li:last-child::before {
+        content: "";
+    }
+    /* premium  */
+    
+    #hosting .premium .price-header {
+        background-color: yellowgreen;
+    }
+    
+    #hosting .premium ul {
+        padding-left: 8rem;
+        text-decoration: none;
+        text-align: left;
+    }
+    
+    #hosting .premium ul li:nth-child(n+3)::before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em;
+        width: 1.3em;
+        color: green;
     }
     
     #hosting .btn {
