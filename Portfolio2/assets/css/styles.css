@@ -447,6 +447,12 @@ footer {
 /*  Large Screen */
 
 @media screen and (min-width:950px) {
+    .nav-brand {
+        width: 13rem;
+    }
+    .hero {
+        height: 80vh;
+    }
     .hero ::before {
         height: 22.7rem;
         background: url("../images/wave-large.png");
@@ -471,8 +477,4 @@ footer {
 
 /* Extra Large */
 
-@media screen and (min-width:1200px) {
-    .nav-brand {
-        width: 10rem;
-    }
-}
+@media screen and (min-width:1200px) {}
