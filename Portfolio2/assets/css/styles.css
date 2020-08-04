@@ -64,7 +64,11 @@ nav {
 }
 
 .nav-brand {
-    width: 2rem;
+    font-size: 4rem;
+}
+
+.nav-brand img {
+    color: black;
 }
 
 .menu-icons i {
@@ -388,6 +392,9 @@ footer {
 /* Small Screen */
 
 @media screen and (min-width:470px) {
+    .nav-brand {
+        width: 6rem;
+    }
     .hero ::before {
         height: 9.4rem;
         background: url("../images/wave-medium.png");
@@ -409,9 +416,6 @@ footer {
 @media screen and (min-width:700px) {
     header {
         height: 18rem;
-    }
-    .nav-brand {
-        width: 4rem;
     }
     .nav-list {
         width: initial;
@@ -467,4 +471,8 @@ footer {
 
 /* Extra Large */
 
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    .nav-brand {
+        width: 10rem;
+    }
+}
