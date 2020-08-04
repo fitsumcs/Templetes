@@ -307,3 +307,73 @@
         font-size: 1.3rem;
     }
     /* End Web Hosting  */
+    /* Testimonials */
+    
+    #testimonial h1 {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    #testimonial h1::after {
+        content: '';
+        background: chocolate;
+        display: block;
+        height: 0.15rem;
+        width: 9rem;
+        margin: 0.3rem auto 2rem;
+    }
+    
+    #testimonial p {
+        margin-bottom: 5rem;
+    }
+    
+    #testimonial .customer {
+        padding: 6rem 2rem 2rem;
+        background-color: #efefef;
+        margin-bottom: 4rem;
+    }
+    
+    #testimonial img {
+        position: absolute;
+        top: -3rem;
+        left: 7rem;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100%;
+        filter: grayscale(1);
+        cursor: pointer;
+    }
+    
+    #testimonial img:hover {
+        filter: grayscale(0);
+    }
+    
+    #testimonial .customer h4 {
+        color: chocolate;
+        font-size: 1rem;
+    }
+    
+    #testimonial .customer h4::before {
+        content: open-quote;
+        padding-right: 0.5rem;
+        font-size: 1.3rem;
+        opacity: .6;
+    }
+    
+    #testimonial .customer h4::after {
+        content: close-quote;
+        font-size: 1.3rem;
+        opacity: .6;
+    }
+    
+    #testimonial .customer h3 {
+        font-size: 1rem;
+        font-weight: 200;
+        color: #007bff;
+    }
+    
+    #testimonial .customer h3 span {
+        font-size: 0.7rem;
+        color: #333;
+    }
+    /* End of Testimonials */
