@@ -377,3 +377,40 @@
         color: #333;
     }
     /* End of Testimonials */
+    /* Contact Us Section */
+    
+    #contact h1 {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    #contact h1::after {
+        content: '';
+        background: chocolate;
+        display: block;
+        height: 0.15rem;
+        width: 9rem;
+        margin: 0.3rem auto 2rem;
+    }
+    
+    #contact form {
+        padding-bottom: 1.5rem;
+    }
+    
+    #contact ::placeholder {
+        color: #999;
+    }
+    
+    #contact .contact-info {
+        background: rgb(243, 237, 227);
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #contact .contact-info i {
+        padding: 0 1rem;
+        text-align: left;
+        color: coral;
+        font-weight: bold;
+    }
+    /* End of Contact Us Section */
