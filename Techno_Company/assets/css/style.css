@@ -414,3 +414,49 @@
         font-weight: bold;
     }
     /* End of Contact Us Section */
+    /* Footer Section */
+    
+    #footer {
+        background-color: rgba(40, 49, 22, 0.383);
+        padding: 1rem;
+    }
+    
+    #footer h2 {
+        font-size: 1.2rem;
+    }
+    
+    #footer ul {
+        list-style: none;
+    }
+    
+    #footer ul li {
+        margin-left: -2rem;
+    }
+    
+    #footer ul li a {
+        color: #333;
+    }
+    
+    #footer address a {
+        color: #333;
+    }
+    
+    #footer .social {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+    
+    #footer .social i {
+        border: 1px solid cadetblue;
+        border-radius: 100%;
+        width: fit-content;
+        height: fit-content;
+        padding: 0.9rem;
+        color: chocolate;
+        transform: scale(0.8);
+    }
+    
+    #footer .social i:hover {
+        transform: scale(1);
+    }
+    /* End of Footer Section */
